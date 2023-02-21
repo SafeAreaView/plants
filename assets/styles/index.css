@@ -180,6 +180,9 @@ a {
     height: 44px;
     transition: 0.3s;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .welcome-btn:disabled {
@@ -293,7 +296,7 @@ a {
     display: flex;
     height: 560px;
     justify-content: space-between;
-    padding: 40px 109px 115px 109px;
+    padding: 50px;
 }
 
 .prices h2,
@@ -395,6 +398,7 @@ h3 {
     font-size: 20px;
     font-weight: 400;
     color: var(--light-gray);
+    cursor: pointer;
 }
 
 .select:active {
