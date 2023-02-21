@@ -65,6 +65,9 @@ a {
     font-size: 20px;
     transition: 0.3s;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .btn:active {
@@ -440,7 +443,7 @@ h3 {
     background-color: var(--white);
 }
 
-.github {
+.footer-info {
     display: flex;
     justify-content: space-between;
     width: 188px;
