@@ -1,0 +1,162 @@
+@media (max-width: 768px) {
+    body {
+        width: 768px;
+    }
+
+    .header {
+        height: 117px;
+    }
+
+    .header-navigation {
+        width: 452px;
+        display: flex;
+        justify-content: space-evenly;
+        margin-right: 0px;
+    }
+
+    .welcome {
+        height: 420px;
+        flex-direction: row-reverse;
+        padding: 40px 50px 70px 50px;
+    }
+
+    .welcome-ilustration img {
+        width: 280px;
+        height: 255px;
+    }
+
+    .main-title {
+        font-size: 35px;
+    }
+
+    .text {
+        max-width: 341px;
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .about {
+        height: 785px;
+        padding: 0;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .about img {
+        width: 250px;
+        height: 258px;
+    }
+
+    .about .title {
+        text-align: center;
+    }
+
+    .title {
+        padding-top: 0px;
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .about-text-block p {
+        max-width: 668px;
+    }
+
+    .service {
+        height: 1800px;
+    }
+
+    .service-controls {
+        flex-direction: column;
+        padding: 20px 0px;
+    }
+
+
+    .content-buttons {
+        margin-top: 20px;
+    }
+
+    .service-content {
+        margin-top: 40px;
+        justify-content: center;
+        padding: 0;
+        gap: 38px 80px;
+    }
+
+    .card {
+        width: 280px;
+    }
+
+    .card-image {
+        width: 280px;
+        height: 350px;
+    }
+
+    .card-img {
+        width: 280px;
+        height: 350px;
+    }
+
+    .prices {
+        width: 768px;
+    }
+
+    .contact-block {
+        display: flex;
+        width: 290px;
+    }
+
+    .prices h2 {
+        font-size: 35px;
+        color: var(--links-nav);
+    }
+
+    .prices h3 {
+        font-size: 25px;
+    }
+
+    .contact-us {
+        height: 740px;
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+
+    .centered {
+        padding-top: 10px;
+    }
+
+
+    .select-wrapper::after {
+        content: "";
+        position: absolute;
+        top: 88%;
+        right: 15px;
+        transform: translateY(-50%);
+        display: block;
+        width: 16px;
+        height: 16px;
+        background-image: url(../icons/accordion_btn.svg);
+    }
+
+    .contact-us img {
+        align-self: center;
+    }
+
+    .footer {
+        height: 80px;
+        flex-direction: column-reverse;
+    }
+
+    .footer ul {
+        display: flex;
+        justify-content: space-between;
+        width: 200px;
+    }
+
+    .github {
+        display: flex;
+        justify-content: center;
+        width: 188px;
+    }
+}
